@@ -1,0 +1,18 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+Class myclass{
+public:
+int myNum;
+string myString;
+};
+
+int main(){
+MyClass myObj;
+myObj.myNum= 15;
+myObj.myString="my number is fifteen";
+cout << myObj.myNum <<"\n";
+cout << myObj.myString;
+return 0;
+}
